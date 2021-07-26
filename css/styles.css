@@ -125,10 +125,12 @@ body {
   .card-img {
     margin-top: 50px;
     grid-row: 1 / auto;
+    border-radius: 5px 5px 0 0;
   }
 
   .card-stat {
     grid-row: 2 / auto;
+    border-radius: 0 0 5px 5px;
   }
 
   .card-stat .stat {
