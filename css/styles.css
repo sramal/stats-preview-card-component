@@ -98,6 +98,12 @@ body {
   }
 }
 
+@media (max-width: 750px) {
+  .card-stat {
+    padding: 30px;
+  }
+}
+
 @media (max-width: 650px) {
   body {
     align-items: flex-start;
@@ -131,6 +137,5 @@ body {
     gap: 25px;
     justify-content: center;
     align-items: center;
-    padding: 30px;
   }
 }
